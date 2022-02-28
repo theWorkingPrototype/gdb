@@ -1,0 +1,12 @@
+{
+  "name": "gdb",
+  "version": "1.0.0",
+  "description": "GDB assignment downloader",
+  "main": "index.js",
+  "author": "oRaNgE",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^19.0.0",
+    "request": "^2.88.2"
+  }
+}
