@@ -18,7 +18,7 @@ async function download(email, password){
     var meta = [];
     for(let classroom of classes) {
         let qids = await getQids(cookie, classroom);
-        if(qids.size<12){
+        if(qids.size){
             total += qids.size;
             meta.push([classroom[1], qids]);
         }
